@@ -1,0 +1,12 @@
+{
+	"name": "magnusdatalake123_service",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobFS",
+		"typeProperties": {
+			"url": "https://magnusdatalake123.dfs.core.windows.net/",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDg5QzIxMzIyLTY0NEYtNDY2Ri1CRUQ2LUNENUNCRkMxMjMyNl8zYjg3MTVkNy0yMGQ2LTRkYjQtYmNmNS1mZWI3NWZhNWY3ZmYiDQp9"
+		}
+	}
+}
